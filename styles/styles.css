@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+
+
+  /* ----------body---------- */
+  body {
+    max-width: 120rem;
+    min-width: 20rem;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000000;
+    
+  }
+
+
+
+  a, a:focus, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #000000;
+  }
+
+/* --------header-------- */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+}
+
+.navbar-logo, .navbar-btn {
+    width: 3rem;
+    height: 3rem;
+}
+
+.navbar-flag {
+    width: 6rem;
+    height: 4rem;
+}
+
+.navbar-menu {
+    display: none;
+    list-style: none;
+}
+
+@media (min-width: 60em) {
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+    }
+    .navbar-logo {
+        grid-column: 1/2;
+    }
+    .navbar-flag {
+        grid-column: 5/6;
+    }
+    .navbar-btn {
+        display: none;
+    }
+    .navbar-menu {
+        grid-column: 6/10;
+        justify-self: right;
+    }
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .navbar ul li {
+        padding: 0 0.5rem;
+    }
+
+}
+/* --------main-------- */
+
+.hero-video {
+    display: flex;
+    justify-content: center;
+}
+
+.about-kor h1 {
+    font-family: lemon;
+    font-weight: 200;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-kor blockquote {
+    max-width: 22rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #d1cfcf;
+}
+
+.back-to-top {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 5rem;
+    height: 4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.back-to-top a {
+    color: #ffffff;
+}
+
+@media (min-width: 50em) {
+    .quote-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+}

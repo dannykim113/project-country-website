@@ -1,0 +1,6 @@
+source
+
+<main page>
+korea-flag : https://en.wikipedia.org/wiki/Flag_of_South_Korea
+
+hero video : Alexander Lutkov ; https://www.pexels.com/@alexander-lutkov-937750/
