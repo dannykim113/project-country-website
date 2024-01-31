@@ -60,10 +60,10 @@
         <!-- hamburger menu toggle -->
         <button class="navbar-btn">O</button>
         <ul class="navbar-menu">
-          <li><a href="han-guk.html"></a>Han-Guk</li>
-          <li><a href="han-bok.html"></a>Han-Bok</li>
-          <li><a href="han-sik.html"></a>Han-Sik</li>
-          <li><a href="credits.html"></a>Credits</li>
+          <li><a href="./han-guk.html">Han-Guk</a></li>
+          <li><a href="./han-bok.html">Han-Bok</a></li>
+          <li><a href="./han-sik.html">Han-Sik</a></li>
+          <li><a href="./credits.html">Credits</a></li>
         </ul>
       </div>
     </header>
@@ -71,11 +71,24 @@
     <main class="main-wrapper">
       <div class="hero-video">
         <video autoplay loop muted src="./media/hero-video.mp4"></video>
+        <h2>"A Country that Never Sleeps"</h2>
       </div>
 
       <div class="about-kor">
-        <h1>Republic<br />Of<br />Korea</h1>
-        <div class="quote-wrapper">
+        <div class="header">
+          <h1>Republic<br />Of<br />Korea</h1>
+          <img
+            src="./images/kor-peninsula.png"
+            alt="picture of korea peninsula"
+          />
+        </div>
+        <article class="kor-description">
+        <h2>Korea is...</h2>
+        <p>Located at the center of Northeast Asia, the Korean Peninsula neighbors China, Russia, and Japan. The total land area is <em>155 times smaller than Canada.</em> Around &frac34; of the area is covered with mountains. You can find mountains almost anywhere in the country, but there are a few places you can view flat horizons. </p>
+        <p>South Korea has the 29th largest population in the world at around 51.63 million as of 2022. However, 50.49% of the population lives in the Seoul Capital Area (SCA, mainly consisting of Seoul and Gyeonggi-do), indicating severe population gaps among regions. Advancements in medicine and rapid economic growth increased South Koreans’ life expectancy by 21.1 years, from 62.3 in 1970 to 83.6 in 2021, which puts South Korea in third place.</p>
+      </article>
+
+        <article class="quote-wrapper">
           <blockquote
             cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation"
           >
@@ -90,21 +103,17 @@
             cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation"
           >
             <p>
-              If you're a digital nomad or traveller looking for networking
-              opportunities, technology and real city life, you're better off in
-              Seoul
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quo temporibus amet, facilis atque mollitia quas, voluptatibus voluptas eos impedit id, magni!
             </p>
-            <cite>-BBC, Hayley Parrish</cite>
+            <cite>-BCIT, David Allen</cite>
           </blockquote>
           <blockquote
             cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation"
           >
             <p>
-              If you're a digital nomad or traveller looking for networking
-              opportunities, technology and real city life, you're better off in
-              Seoul
+              Ut, dolorum quas numquam placeat nihil iusto minus explicabo. Magnam similique ipsum tenetur repellendus doloribus expedita perspiciatis minus odit, asperiores quiai.
             </p>
-            <cite>-BBC, Hayley Parrish</cite>
+            <cite>-Discovery, Hol Gratitu</cite>
           </blockquote>
         </div>
       </div>
@@ -113,6 +122,19 @@
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="icon-wrapper">
+        <a href="mailto:dkim344@my.bcit.ca" class="contact"
+          ><img src="images/email.svg" alt="email icon"
+        /></a>
+        <a href="https://www.linkedin.com/" target="_blank" class="contact"
+          ><img src="images/linkedin.svg" alt="linkedin icon"
+        /></a>
+        <a href="https://github.com/" target="_blank" class="contact"
+          ><img src="images/github.svg" alt="github icon"
+        /></a>
+      </div>
+      <p>&#169;2024 Danny Kim</p>
+    </footer>
   </body>
 </html>
