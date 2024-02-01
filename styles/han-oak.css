@@ -108,15 +108,77 @@ a:active {
 
 /* -------main-------- */
 
-.header {
+main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.header img {
-    max-width: 100rem;
+.classic,
+.bukchon {
+    max-width: 70rem;
+    padding: 1rem;
 }
 
+.hover-wrapper img {
+    border-style: outset;
+    box-shadow: 10px 5px 5px #808080;
+}
+
+@media (min-width: 60em) {
+    .header img {
+        max-width: 80rem;
+    }
+
+    .hover-wrapper {
+        position: relative;
+    }
+
+    .hover-wrapper img {
+        width: 30%;
+        border-style: outset;
+        box-shadow: 10px 5px 5px #808080;
+    }
+
+    .hover-wrapper img:hover {
+        width: 35%;
+        z-index: 3;
+    }
+
+    .hover1 {
+        position: absolute;
+        top: 1rem;
+        left: 6rem;
+    }
+
+    .hover2 {
+        position: absolute;
+        top: 8rem;
+        left: 13rem;
+    }
+
+    .hover3 {
+        position: absolute;
+        top: 4rem;
+        left: 21rem;
+    }
+
+    .hover4 {
+        position: absolute;
+        top: 1rem;
+        left: 35rem;
+    }
+
+    .hover5 {
+        position: absolute;
+        top: 21rem;
+        left: 30rem;
+    }
+
+    .bukchon {
+        margin-bottom: 40rem;
+    }
+}
 
 /* ------back to top button------ */
 .back-to-top {
