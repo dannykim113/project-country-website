@@ -108,9 +108,62 @@ a:active {
 
 /* -------main-------- */
 
+.bg-image {
+    width: 80%;
+    position: fixed;
+    top: 10rem;
+    left: 7%;
+    z-index: -1;
+    opacity: 30%;
+}
 
+table {
+    border-style: inset;
+    border: solid 2px;
+    border-color: #000000;
+    color: #000000;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 3rem;
+}
 
+th,
+td {
+    border-style: double;
+    border: solid 1px;
+    border-color: #000000;
+    padding: 0.25rem;
+}
 
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 49em) {
+
+    .bg-image {
+        width: 38rem;
+        left: 20%;
+    }
+
+    table {
+        width: 45rem;
+    }
+
+    th,
+    td {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 65em) {
+    .bg-image {
+        left: 28%;
+    }
+
+}
 
 /* ------back to top button------ */
 .back-to-top {

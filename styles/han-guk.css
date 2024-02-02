@@ -156,6 +156,23 @@ article {
 }
 
 
+/* ------back to top button------ */
+.back-to-top {
+  background-color: #000000;
+  border-radius: 50%;
+  width: 5rem;
+  height: 4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.back-to-top a {
+  color: #ffffff;
+}
+
+
 /* ------footer------ */
 
 .icon-wrapper {
