@@ -1,74 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Korea</title>
+    <!-- seo -->
+    <meta name="Description" content="This page has some basic information about Korea. You can learn the way you call Korea in Korean language. The information of Korean national flag and flower are contained.">
+
     <!-- favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/favicon/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="images/favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- style sheets -->
-    <link rel="stylesheet" href="styles/fwd-normalize.css" />
-    <link rel="stylesheet" href="styles/han-guk.css" />
+    <link rel="stylesheet" href="styles/fwd-normalize.css">
+    <link rel="stylesheet" href="styles/han-guk.css">
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div class="navbar">
-        <a href="../fwdp-1000-project-01/index.html" class="navbar-logo"
-          ><img
-            src="images/favicon/android-chrome-192x192.png"
-            alt="navbar logo"
-        /></a>
-        <a href="index.html" class="navbar-flag"
-          ><img src="images/korea-flag.png" alt="Korea National Flag"
-        /></a>
+      <!-- navigation bar -->
+      <nav class="navbar">
+        <div class="divide-nav">
+        <a href="../fwdp-1000-project-01/index.html" class="navbar-logo"><img src="images/favicon/android-chrome-192x192.png" alt="navbar logo"></a>
+        <a href="index.html" class="navbar-flag"><img src="images/korea-flag.png" alt="Korea National Flag"></a>
 
         <!-- hamburger menu toggle -->
-        <button class="navbar-btn">O</button>
-        <ul class="navbar-menu">
+        <a href="#" class="navbar-btn" id="navbar-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></a>
+      </div>
+      <div class="list-wrapper">
+        <ul class="navbar-menu" id="navbar-menu">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./han-bok.html">Han-Bok</a></li>
           <li><a href="./han-oak.html">Han-Oak</a></li>
           <li><a href="./credits.html">Credits</a></li>
         </ul>
       </div>
+      </nav>
     </header>
 
     <main>
       <div class="header">
-        <img src="./images/han-guk-bg.png" alt="picture of korean language" />
+        <img src="./images/han-guk-bg.png" alt="picture of korean language">
       </div>
       <article class="han-guk">
         <h2>What's Han-Guk?</h2>
@@ -92,7 +73,7 @@
       <article class="tae-geuk-gi">
         <h2>Korean National Flag,<br> Tae-Geuk-Gi</h2>
         <img class="kor-flag" src="./images/flag-description.png" alt="Description of Korean national flag">
-        <p><br>The Taegeukgi was first adopted as the national flag of the Joseon Dynasty in 1883, and has been used as the national flag since the foundation of the Korean Empire was proclaimed in 1897. A taegeuk is a circle of red and blue located at the center against a white background, with four black trigrams (gwae) placed in the four corners.</p>
+        <p>Taegeukgi was first adopted as the national flag of the Joseon Dynasty in 1883, and has been used as the national flag since the foundation of the Korean Empire was proclaimed in 1897. A taegeuk is a circle of red and blue located at the center against a white background, with four black trigrams (gwae) placed in the four corners.</p>
         
         <p>The white background symbolizes brightness, purity, and peace. In contrast, the taegeuk symbolizes harmony between yin and yang (which, in the Eastern philosophy, represent the two contrasting aspects of energy that creates all beings in the universe), and the four trigrams (geon, gon, gam, and ri) represent the sky, the earth, water, and fire.
           </p>
@@ -104,28 +85,21 @@
         <p><br>
           <br>
           <br>
-          <br>The Mugunghwa (Rose of Sharon) is the national flower of Korea. The word “Mugunghwa” means “eternal blossom that never fades.”
+          <br>Mugunghwa (Rose of Sharon) is the national flower of Korea. The word “Mugunghwa” means “eternal blossom that never fades.”
           It is deeply associated with what is regarded as the most typical Korean characteristics: inwardness and tenacity.</p>
-
-          
       </article>
 
       <div class="back-to-top">
         <a href="#">Back to Top</a>
       </div>
+      <script src="./scripts/menu-toggle.js"></script>
     </main>
 
     <footer>
       <div class="icon-wrapper">
-        <a href="mailto:dkim344@my.bcit.ca" class="contact"
-          ><img src="images/email.svg" alt="email icon"
-        /></a>
-        <a href="https://www.linkedin.com/in/danny-kim-8150262a9/" target="_blank" class="contact"
-          ><img src="images/linkedin.svg" alt="linkedin icon"
-        /></a>
-        <a href="https://github.com/dannykim113" target="_blank" class="contact"
-          ><img src="images/github.svg" alt="github icon"
-        /></a>
+        <a href="mailto:dkim344@my.bcit.ca" class="contact"><img src="images/email.svg" alt="email icon"></a>
+        <a href="https://www.linkedin.com/in/danny-kim-8150262a9/" target="_blank" class="contact" ><img src="images/linkedin.svg" alt="linkedin icon"></a>
+        <a href="https://github.com/dannykim113" target="_blank" class="contact"><img src="images/github.svg" alt="github icon"></a>
       </div>
       <p>&#169;2024 Danny Kim</p>
     </footer>

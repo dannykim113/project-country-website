@@ -1,71 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Website</title>
+    <!-- seo -->
+    <meta name="Description" content="Introducing Korea and relative inforamtion to someone who never heard about Korea. Contained information is simple and summarized.">
 
     <!-- favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/favicon/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="images/favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- style sheets -->
-    <link rel="stylesheet" href="styles/fwd-normalize.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/fwd-normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <header>
-      <div class="navbar">
-        <a href="../fwdp-1000-project-01/index.html" class="navbar-logo"
-          ><img
-            src="images/favicon/android-chrome-192x192.png"
-            alt="navbar logo"
-        /></a>
-        <a href="index.html" class="navbar-flag"
-          ><img src="images/korea-flag.png" alt="Korea National Flag"
-        /></a>
+      <!-- navigation bar -->
+      <nav class="navbar">
+        <div class="divide-nav">
+        <a href="../fwdp-1000-project-01/index.html" class="navbar-logo" ><img src="images/favicon/android-chrome-192x192.png" alt="navbar logo"></a>
+        <a href="index.html" class="navbar-flag"><img src="images/korea-flag.png" alt="Korea National Flag"></a>
 
         <!-- hamburger menu toggle -->
-        <button class="navbar-btn">O</button>
-        <ul class="navbar-menu">
+        <a href="#" class="navbar-btn" id="navbar-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></a>
+      </div>
+      <div class="list-wrapper">
+        <ul class="navbar-menu" id="navbar-menu">
           <li><a href="./han-guk.html">Han-Guk</a></li>
           <li><a href="./han-bok.html">Han-Bok</a></li>
           <li><a href="./han-oak.html">Han-Oak</a></li>
           <li><a href="./credits.html">Credits</a></li>
         </ul>
       </div>
+      </nav>
     </header>
 
     <main class="main-wrapper">
@@ -76,11 +56,8 @@
 
       <div class="about-kor">
         <div class="header">
-          <h1>Republic<br />Of<br />Korea</h1>
-          <img
-            src="./images/kor-peninsula.png"
-            alt="picture of korea peninsula"
-          />
+          <h1>Republic<br>Of<br>Korea</h1>
+          <img src="./images/kor-peninsula.png" alt="picture of korea peninsula">
         </div>
         <article class="kor-description">
         <h2>Korea is...</h2>
@@ -88,10 +65,8 @@
         <p>South Korea has the 29th largest population in the world at around 51.63 million as of 2022. However, 50.49% of the population lives in the Seoul Capital Area (SCA, mainly consisting of Seoul and Gyeonggi-do), indicating severe population gaps among regions. Advancements in medicine and rapid economic growth increased South Koreans’ life expectancy by 21.1 years, from 62.3 in 1970 to 83.6 in 2021, which puts South Korea in third place.</p>
       </article>
 
-        <article class="quote-wrapper">
-          <blockquote
-            cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation"
-          >
+        <div class="quote-wrapper">
+          <blockquote cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation">
             <p>
               If you're a digital nomad or traveller looking for networking
               opportunities, technology and real city life, you're better off in
@@ -99,40 +74,51 @@
             </p>
             <cite>-BBC, Hayley Parrish</cite>
           </blockquote>
-          <blockquote
-            cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation"
-          >
+          <blockquote cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quo temporibus amet, facilis atque mollitia quas, voluptatibus voluptas eos impedit id, magni!
             </p>
             <cite>-BCIT, David Allen</cite>
           </blockquote>
-          <blockquote
-            cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation"
-          >
+          <blockquote cite="https://www.bbc.com/travel/article/20240129-why-south-korea-should-be-your-next-workcation">
             <p>
               Ut, dolorum quas numquam placeat nihil iusto minus explicabo. Magnam similique ipsum tenetur repellendus doloribus expedita perspiciatis minus odit, asperiores quiai.
             </p>
             <cite>-Discovery, Hol Gratitu</cite>
           </blockquote>
         </div>
-      </div>
+        </div>
+      
+
+        <!-- subscribe form -->
+      <form method="get" class="subscribe-form">
+        <h3>Subscribe our Page!</h3>
+        <div class="get-name">
+          <label for="name">Enter your name : </label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="get-email">
+          <label for="email">Enter your email : </label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="submit-btn">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+
+        <!-- back to top button -->
       <div class="back-to-top">
         <a href="#">Back to Top</a>
       </div>
+      
+    <script src="./scripts/menu-toggle.js"></script>
     </main>
 
     <footer>
       <div class="icon-wrapper">
-        <a href="mailto:dkim344@my.bcit.ca" class="contact"
-          ><img src="images/email.svg" alt="email icon"
-        /></a>
-        <a href="https://www.linkedin.com/in/danny-kim-8150262a9/" target="_blank" class="contact"
-          ><img src="images/linkedin.svg" alt="linkedin icon"
-        /></a>
-        <a href="https://github.com/dannykim113" target="_blank" class="contact"
-          ><img src="images/github.svg" alt="github icon"
-        /></a>
+        <a href="mailto:dkim344@my.bcit.ca" class="contact"><img src="images/email.svg" alt="email icon"></a>
+        <a href="https://www.linkedin.com/in/danny-kim-8150262a9/" target="_blank" class="contact" ><img src="images/linkedin.svg" alt="linkedin icon"></a>
+        <a href="https://github.com/dannykim113" target="_blank" class="contact"><img src="images/github.svg" alt="github icon"></a>
       </div>
       <p>&#169;2024 Danny Kim</p>
     </footer>
